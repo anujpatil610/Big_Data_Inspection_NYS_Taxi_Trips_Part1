@@ -132,7 +132,6 @@
 ###### This chart is useful to understand the variation in the average number of passengers per hour. It can help identify the hours with the highest and lowest average number of passengers, which can be useful for scheduling drivers or determining pricing strategies.
 ![chart](chart1.png)
 
-
 ### Q10. Create a new CSV file which has only one out of every thousand rows. 
 ###### The code reads a CSV file named "trip_data_3.csv", creates a new CSV file named "new.csv", and writes to it every 1000th row of the original file. It uses the Python CSV library to read and write to the files.
 
