@@ -122,10 +122,7 @@
 | passenger_count     | 0.0         | 255.0       |
 | trip_time_in_secs   | 0.0         | 10800.0     |
 | trip_distance       | 0.0         | 100.0       |
-| pickup_longitude   | -2316.6365  | 2945.9587   |
-| pickup_latitude    | -3124.4897  | 3210.3855   |
-| dropoff_longitude | -2491.22    | 1347.4437  |
-| dropoff_latitude   | -3547.8972 | 3453.3174 |
+
 
 ### Q9. Create a chart which shows the average number of passengers each hour of the day. (X axis should have 24 hours)
 ###### The given code reads a CSV file containing taxi trip data and calculates the average number of passengers for each hour of the day. It plots a line graph with the x-axis representing the 24 hours of the day and the y-axis representing the average number of passengers. The function calculate_average_passengers_per_hour takes the CSV file name as input and returns a list of average passengers for each hour. The function plot_average_passengers_per_hour takes the list of average passengers as input and plots the line graph.
