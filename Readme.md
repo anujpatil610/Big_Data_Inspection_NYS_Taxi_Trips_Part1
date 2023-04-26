@@ -128,7 +128,7 @@
 ###### The given code reads a CSV file containing taxi trip data and calculates the average number of passengers for each hour of the day. It plots a line graph with the x-axis representing the 24 hours of the day and the y-axis representing the average number of passengers. The function calculate_average_passengers_per_hour takes the CSV file name as input and returns a list of average passengers for each hour. The function plot_average_passengers_per_hour takes the list of average passengers as input and plots the line graph.
 
 ###### This chart is useful to understand the variation in the average number of passengers per hour. It can help identify the hours with the highest and lowest average number of passengers, which can be useful for scheduling drivers or determining pricing strategies.
-![chart](Chart1.png)
+![chart](chart1.png)
 
 
 ### Q10. Create a new CSV file which has only one out of every thousand rows. 
@@ -139,6 +139,6 @@
 
 ### Q11.  Repeat step 9 with the reduced dataset and compare the two charts.
 ###### The code generates a line chart, by computing the average number of passengers per hour for a reduced dataset. The reduced dataset is obtained by selecting only one out of every thousand rows from the original 'trip_data_3.csv' file. The code calls the 'calculate_average_passengers_per_hour' function, which computes the average number of passengers per hour for each hour of the day from the reduced dataset. The 'plot_average_passengers_per_hour' function is then called to plot the resulting data in a line chart, using Matplotlib. The resulting chart shows the average number of passengers per hour against the hour of the day, providing a less granular view of the data than the original dataset used to generate chart1. However, it still allows us to see trends in passenger counts over time.
-![chart](Chart2.png)
+![chart](chart2.png)
 ###### This chart, shows a comparison of the average number of passengers per hour for the original and reduced datasets, allowing us to see any differences or similarities in passenger counts over time.
 ![chart](chart1_2.png)
