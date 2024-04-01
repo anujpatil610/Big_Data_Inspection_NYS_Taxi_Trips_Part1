@@ -1,6 +1,5 @@
 # Name - Anuj Patil
-# IA_626 - Assignment No :04
-## Analyzing the datset of Taxi Rides in NYS - (3rd Dataset)
+## Analyzing the datset of Taxi Rides in NYS
 
 ### Q1. What datetime range does your data cover?  How many rows are there total?
 ###### The data covers the datetime range from March 1, 2013 at 00:00:00 to March 31, 2013 at 23:59:58 for pickup dates, and from March 1, 2013 at 00:00:39 to April 1, 2013 at 01:16:32 for dropoff dates and the total number of rows are **15749228**.
